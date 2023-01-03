@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: antiquewhite;
+}
+
+.container {
+  width: 800px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 20px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 15px 10px rgba(95, 42, 16, 0.3);
+          box-shadow: 0 0 15px 10px rgba(95, 42, 16, 0.3);
+}
+
+.image img {
+  height: 100%;
+}
+
+.form {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  -webkit-box-shadow: 0 0 10px 10px rgba(95, 42, 16, 0.5);
+          box-shadow: 0 0 10px 10px rgba(95, 42, 16, 0.5);
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#5f2a10), to(#faebd7));
+  background: linear-gradient(to bottom, #5f2a10, #faebd7);
+}
+
+.form p {
+  color: #dad4cc;
+  font-weight: bold;
+}
+
+form {
+  background-color: #faebd7;
+  margin-top: 10px;
+  border-radius: 15px;
+  padding: 5%;
+  width: 95%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 0 10px 4px rgba(95, 42, 16, 0.5);
+          box-shadow: 0 0 10px 4px rgba(95, 42, 16, 0.5);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h1, h2 {
+  color: #faebd7;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+label {
+  padding-top: 5px;
+  width: 100%;
+  color: #5f2a10;
+  font-weight: bold;
+  text-align: left;
+}
+
+input {
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+  border-bottom: 2px solid rgba(95, 42, 16, 0.5);
+  outline: none;
+  padding: 10px 0px;
+  background-color: #faebd7;
+}
+
+input[type='submit'] {
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: #faebd7;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background-color: rgba(95, 42, 16, 0.8);
+}
+/*# sourceMappingURL=estilos.css.map */

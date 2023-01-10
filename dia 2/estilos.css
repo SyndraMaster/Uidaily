@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.centrado-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+
+main {
+  background: -webkit-gradient(linear, left top, right top, from(#43cea2), to(#185a9d));
+  background: linear-gradient(to right, #43cea2, #185a9d);
+  width: 100%;
+  height: 100%;
+}
+
+main .container {
+  padding: 50px;
+}
+
+.plastico {
+  width: 300px;
+  height: calc(300px / 1.54);
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  padding: 20px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  -webkit-box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.3);
+          box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.3);
+}
+
+.tarjeta-iconos {
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+
+.tarjeta-iconos img {
+  width: 64px;
+}
+
+.tarjeta-numeros, .tarjeta-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.serie {
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 2px;
+  color: #fff;
+}
+
+.tarjeta-info {
+  color: #fff;
+}
+
+.tarjeta-info .vencimiento {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tarjeta-info .vencimiento p:nth-child(1) {
+  font-size: 0.8rem;
+  color: #4a4a4a;
+}
+
+.resumen-pago {
+  width: 400px;
+  height: 350px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.resumen-pago h3 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.resumen-pago .container {
+  background-color: #185a9d;
+  max-width: 300px;
+  padding: 20px 0;
+  border-radius: 10px;
+  width: 90%;
+}
+
+.resumen-pago .container .resumen-titulos, .resumen-pago .container .registro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.resumen-pago .container .resumen-titulos {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.resumen-pago .container .registros {
+  width: 100%;
+}
+
+.resumen-pago .container .registros .registro {
+  padding: 10px 20px;
+  color: #dedede;
+}
+
+.resumen-pago .container .registros .registro:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  font-weight: bold;
+  color: #fff;
+}
+
+.resumen-pago .container .pago-button {
+  width: 100%;
+  padding: 0 20px;
+}
+
+.resumen-pago .container .pago-button button {
+  background: -webkit-gradient(linear, left top, right top, from(#185a9d), to(#a1abe8));
+  background: linear-gradient(to right, #185a9d, #a1abe8);
+  width: 100%;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  -webkit-box-shadow: 0 0 10px 5px #35353536;
+          box-shadow: 0 0 10px 5px #35353536;
+  padding: 10px;
+}
+/*# sourceMappingURL=estilos.css.map */

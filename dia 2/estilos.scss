@@ -1,0 +1,124 @@
+$fuente1: 'Roboto', sans-serif;
+$fuente2: 'Zen Dots', cursive;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $fuente1;
+}
+.centrado-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+main {
+    background: linear-gradient(to right, #43cea2, #185a9d);
+    width: 100%;
+    height: 100%;
+    .container {
+        padding: 50px;
+    }
+}
+.plastico {
+    width: 300px;
+    height: calc(300px / 1.54);
+    background-color: rgba($color: #fff, $alpha: 0.2);
+    backdrop-filter: blur(30px);
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 20px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    border-radius: 15px;
+    border: 1px solid rgba($color: #fff, $alpha: 0.7);
+    box-shadow: 0 0 10px 5px rgba($color: #fff, $alpha: 0.3);
+}
+.tarjeta-iconos {
+    margin-top: 20px;
+    margin-bottom: -20px;
+    img {
+        width: 64px;
+    }
+}
+.tarjeta-numeros, .tarjeta-info {
+    display: flex;
+    justify-content: space-between;
+}
+.serie {
+    // background-color: #43cea2;
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 2px;
+    color: #fff;
+}
+.tarjeta-info {
+    color: #fff;
+    .vencimiento {
+        display: flex; 
+        align-items: center;
+        p {
+            &:nth-child(1) {
+                font-size: 0.8rem;
+                color: rgb(74, 74, 74);
+            }
+        }
+    }
+}
+.resumen-pago {
+    width: 400px;
+    height: 350px;
+    background-color: rgba($color: #fff, $alpha: 0.3);
+    border-radius: 20px;
+    border: 1px solid rgba($color: #fff, $alpha: 0.5);
+    h3 {
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    .container {
+        background-color: #185a9d;
+        max-width: 300px;
+        padding: 20px 0;
+        border-radius: 10px;
+        // height: 400px;
+        width: 90%;
+        .resumen-titulos, .registro {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            color: #fff;
+            padding: 0 20px;
+        }
+        .resumen-titulos {
+            font-weight: bold;
+            padding-bottom: 10px;
+        }
+        .registros {
+            width: 100%;
+            .registro {
+                padding: 10px 20px;
+                color: rgb(222, 222, 222);
+                &:hover {
+                    background-color: rgba($color: #fff, $alpha: 0.2);
+                    font-weight: bold;
+                    color: #fff;
+                }
+            }
+        }
+        .pago-button {
+            width: 100%;
+            padding:0 20px ;
+            button {
+                background: linear-gradient(to right, #185a9d, rgb(161, 171, 232));
+                width: 100%;
+                font-size: 1.3rem;
+                border: none;
+                border-radius: 5px;
+                color: #fff;
+                box-shadow: 0 0 10px 5px #35353536;
+                padding: 10px;
+            }
+        }
+    }
+}
